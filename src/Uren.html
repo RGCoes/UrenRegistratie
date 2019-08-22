@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uren Tabel</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src=js/UrenRegistraties.js></script>
+<body>
+<ul id="lijst">
+    <li>Medewerker</li><br>
+    <li>Opdracht</li><br>
+    <li>Maand</li><br>
+</ul>
+<img src="Qien_logo_networkgraphics.png" alt="Qien_logo" style="border:0;width:153px;height:213px;margin-left:auto;margin-right:auto;display:block">
+
+
+    <table style="width:100%; position:center;" >
+        <tr>
+            <th>Dag</th>
+            <th>Uren</th>
+        </tr>
+        <tr>
+            <td>1 januari</td>
+            <td> <input value=8 id="dag1" CLASS="MAAND" type="number"></td></td>
+
+        </tr>
+        <tr>
+            <td>2 januari</td>
+            <td> <input id="dag2" CLASS="MAAND" type="number"></td></td>
+        </tr>
+        <tr>
+            <td>totaal</td>
+            <td> <input id="totaal" type="text"></td></td>
+        </tr>
+
+
+    </table>
+
+<button id="btn" onclick="registreer()">registreer</button>
+
+
+    <script>
+    let movies = [];
+    // example {id:1592304983049, title: 'Deadpool', year: 2015}
+    const addMovie = (ev)=>{
+        ev.preventDefault();  //to stop the form submitting
+        let movie = {
+            id: Date.now(),
+            title: document.getElementById('hoi').value,
+            year: document.getElementById('yr').value
+        }
+</script>
+
+
+
+</body>
+</html>
