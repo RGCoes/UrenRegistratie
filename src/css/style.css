@@ -53,12 +53,14 @@ li.dropdown {
 }
 
 table {
-    width: 10%;
+    align: center;
+    width: 50%;
     color: #A34AFE;
     border: 1px solid black;
 }
 
 th, td {
+
     padding: 1px;
     text-align: left;
     border-bottom: 1px solid #ddd;
