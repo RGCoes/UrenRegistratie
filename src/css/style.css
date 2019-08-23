@@ -1,6 +1,7 @@
-html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+html,body{font-family:Robotic,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
 
 ul {
+    color: #666;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -37,16 +38,18 @@ li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-
 .dropdown-content a {
+
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
-
-.dropdown-content a:hover {background-color: #A34AFE;}
+.dropdown-content a:hover {
+    color: white;
+    background-color: #A34AFE;
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -59,7 +62,6 @@ table {
 }
 
 th, td {
-
     padding: 1px;
     text-align: center;
     border-bottom: 1px solid #ddd;
@@ -67,6 +69,10 @@ th, td {
 
 tr:hover {background-color:#f5f5f5;}
 
+button:hover{
+    color:white;
+    background-color:#A34AFE;
+}
 button{
     color:#666;
 }
