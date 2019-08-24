@@ -7,18 +7,40 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <script src=js/UrenRegistraties.js></script>
 <body>
+
+<br>
 <ul id="lijst">
-    <li>Medewerker</li><br>
-    <li>Opdracht</li><br>
-    <li>Maand</li><br>
-</ul>
+    <li>Medewerker&nbsp<input id="NaamMedewerker" type="String"></li><br><br>
+    <li>Opdracht&nbsp<input id="NaamOpdracht" type="String"></li><br><br>
+   </ul>
+
 <img src="Qien_logo_networkgraphics.png" alt="Qien_logo" style="border:0;width:153px;height:213px;margin-left:auto;margin-right:auto;display:block">
+<br>
+<div class="dropdown">
+    <button class="dropbtn">Selecteer Maand</button>
+    <div class="dropdown-content">
+        <a href="#">Januari</a>
+        <a href="#">Febuari</a>
+        <a href="#">Maart</a>
+        <a href="#">April</a>
+        <a href="#">Mei</a>
+        <a href="#">Juni</a>
+        <a href="#">Juli</a>
+        <a href="#">Augustus</a>
+        <a href="#">September</a>
+        <a href="#">Oktober</a>
+        <a href="#">November</a>
+        <a href="#">December</a>
+    </div>
+</div>
+<br>
 
-
-    <table style="width:100%; position:center;" >
+    <table id="tabel">
         <tr>
             <th>Dag</th>
             <th>Uren gewerkt</th>
+            <th>Uren ziek</th>
+            <th>Uren overgewerkt</th>
         </tr>
         <tr>
             <td>1 januari</td>
@@ -157,15 +179,12 @@
 
 
         <tr>
-            <td>totaal</td>
+            <td >Totaal</td>
             <td> <input id="totaal" type="text"></td></td>
         </tr>
-
-
     </table>
-
-<button id="btn" onclick="registreer()">registreer</button>
-
+<br>
+<button id="btn" onclick="registreer()">Registreer Uren</button>
 
 </body>
 </html>
