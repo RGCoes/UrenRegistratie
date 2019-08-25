@@ -19,3 +19,12 @@ function registreer(){
     totaal = 0;
 
 }
+
+function doorverwijzen(){
+    window.location.assign("https://www.w3schools.com");
+}
+
+function doorverwijzenHTML(){
+    window.location.assign("./legePagina.html");
+}
+
