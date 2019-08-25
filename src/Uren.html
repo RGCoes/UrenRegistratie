@@ -8,6 +8,11 @@
 <script src=js/UrenRegistraties.js></script>
 <body>
 
+<audio controls>
+    <source src="Flan by Jake Chudnow [HD].mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
 <br>
 <ul id="lijst">
     <li>Medewerker&nbsp<input id="NaamMedewerker" type="String"></li><br><br>
@@ -19,9 +24,9 @@
 <div class="dropdown">
     <button class="dropbtn">Selecteer Maand</button>
     <div class="dropdown-content">
-        <a href="#">Januari</a>
-        <a href="#">Febuari</a>
-        <a href="#">Maart</a>
+        <a href="#" onclick=document.getElementById("tabel").innerHTML="hoi">Januari</a>
+        <a href="#" onclick="doorverwijzen()">Febuari</a>
+        <a href="#" onclick="doorverwijzenHTML()">Maart</a>
         <a href="#">April</a>
         <a href="#">Mei</a>
         <a href="#">Juni</a>
