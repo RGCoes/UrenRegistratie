@@ -3,7 +3,6 @@
 function registreer(){
     var totaal = 0;
     var i;
-    alert("waarde" + a);
 
     var a = document.getElementsByClassName("MAAND" );
     console.log(a.length);
